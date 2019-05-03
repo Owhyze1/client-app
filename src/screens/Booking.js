@@ -48,23 +48,25 @@ const styles = StyleSheet.create({
     window:{
         flex: 1,
         flexDirection: 'column',
-        justifyContent: 'flex-start',
     },
     rows: {
         flexDirection: 'row',
-        justifyContent: 'flex-start',
+        justifyContent: 'space-evenly',
         alignItems: 'center',
     },
     text: {
         fontWeight: 'bold',
         textAlign: 'left',
         fontSize: 20,
-
+        width: 80,
     },
     input: {
         fontSize: 20,
         height: 40,
-        borderColor: 'gray',
+        width: 300,
+        borderColor: '#f0f0f5',
         borderWidth: 2,
+        marginBottom: 5,
+        marginTop: 5,
     },
 });
