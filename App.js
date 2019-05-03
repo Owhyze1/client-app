@@ -4,11 +4,13 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 import HomeScreen from './src/screens/HomeScreen';
 import Booking from './src/screens/Booking';
+import SocialMedia from './src/screens/SocialMedia';
 
 const AppNavigator = createStackNavigator(
     {
         Home: HomeScreen,
-        Book: Booking
+        Book: Booking,
+        Media: SocialMedia,
     },
     {
         initialRouteName: 'Home'
