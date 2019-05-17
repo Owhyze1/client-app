@@ -9,7 +9,7 @@ export default class HomeScreen extends Component {
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to QeTV!</Text>
                 <Button
-                    onPress={() => this.props.navigation.navigate('Media')}
+                    onPress={() => this.props.navigation.navigate('Book')}
                     title='Booking'
                     accessibilityLabel='Book an Interview'
                 />
